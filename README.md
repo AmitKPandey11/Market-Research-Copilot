@@ -15,6 +15,33 @@ This project collects information from Google Search, Google News, and Google Tr
 - JSON market research report generation
 - Streamlit web interface for easy interaction
 
+## Streamlit UI
+
+The Streamlit app provides an interactive interface for running market research queries, viewing progress, and displaying the final structured report.
+
+- Enter a natural language query like: `Research Zoom - a video conferencing tool`
+- Watch the pipeline stages: Parse → Discover → Clean → Scrape → Report
+- View the generated market research output directly in the browser
+
+### 🎨 User Interface Preview
+
+![Streamlit UI Screenshot](streamlit_screenshot.png)
+
+**Features visible in the UI:**
+- **Query Input Panel** (Left) — Enter your research prompt naturally
+- **Progress Tracker** — Real-time visualization of all pipeline stages
+- **Results Display** (Right) — Executive summary, competitive analysis, pricing, trends, and SWOT analysis
+- **Dark Professional Theme** — Built with Streamlit's premium design
+- **One-Click Export** — Results available in JSON format for further analysis
+
+### Quick Start with Streamlit
+
+```bash
+streamlit run app.py
+```
+
+Then navigate to `http://localhost:8501` and enter your research query!
+
 ## Repository Structure
 
 - `app.py` — Streamlit UI entry point
