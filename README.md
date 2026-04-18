@@ -58,7 +58,7 @@ Then navigate to `http://localhost:8501` and enter your research query!
 ### 1. Install dependencies
 
 ```bash
-cd "c:\Users\proum\Documents\TMLC assignment\Agent_AI_W2\1yZguFrJR4eBuLaHXIYn_Market-Research-Copilot\Market-Research-Copilot"
+cd "c:\Users\proum\Documents\Agent_AI_W2\1yZguFrJR4eBuLaHXIYn_Market-Research-Copilot\Market-Research-Copilot"
 pip install -r requirements.txt
 ```
 
